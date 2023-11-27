@@ -1,0 +1,28 @@
+{
+  "secret": "Thats a secret word",
+  "authPort": ":3001",
+  "weatherPort": ":3002",
+  "gatewayPort": ":3000",
+  "db": {
+    "user": "root",
+    "password": "root123456789",
+    "host": "localhost",
+    "port": 3306,
+    "name": "forecast"
+  },
+  "forecasts": [
+    { "name": "Dnipro", "lat": "48.4622832", "lon": "34.6706981" },
+    { "name": "Munich", "lat": "48.155022", "lon": "11.3770235" },
+    { "name": "Toronto", "lat": "43.7182639", "lon": "-79.7077226" }
+  ],
+  "schedule": [
+    "00:00",
+    "03:00",
+    "06:00",
+    "09:00",
+    "12:00",
+    "15:00",
+    "18:00",
+    "21:00"
+  ]
+}
